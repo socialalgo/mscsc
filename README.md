@@ -52,6 +52,11 @@ g.InsertionMinimum(u, v); // add edge with optimal solution
 # build the code
 ./install.sh
 
+workSpace="yourWorkSpace"
+
+${workSpace}/build/DCCM ${workSpace}/example/toy.txt 1 1 1 0 0 ${workSpace}/example/toy.update
+```
+
 ## Reference
 ```
 @article{mscsc,
@@ -68,9 +73,4 @@ g.InsertionMinimum(u, v); // add edge with optimal solution
   pages        = {1324--1336},
   year         = {2024}
 }
-```
-
-workSpace="yourWorkSpace"
-
-${workSpace}/build/DCCM ${workSpace}/example/toy.txt 1 1 1 0 0 ${workSpace}/example/toy.update
 ```
