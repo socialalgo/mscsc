@@ -52,6 +52,24 @@ g.InsertionMinimum(u, v); // add edge with optimal solution
 # build the code
 ./install.sh
 
+## Reference
+```
+@article{mscsc,
+  author       = {Xin Chen and
+                  Jieming Shi and
+                  You Peng and
+                  Wenqing Lin and
+                  Sibo Wang and
+                  Wenjie Zhang},
+  title        = {Minimum Strongly Connected Subgraph Collection in Dynamic Graphs},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {17},
+  number       = {6},
+  pages        = {1324--1336},
+  year         = {2024}
+}
+```
+
 workSpace="yourWorkSpace"
 
 ${workSpace}/build/DCCM ${workSpace}/example/toy.txt 1 1 1 0 0 ${workSpace}/example/toy.update
